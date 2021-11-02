@@ -45,4 +45,100 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="180sp"/>
 
+    <TextView
+        android:id="@+id/tv_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/msgTxt"
+        android:layout_marginBottom="-65dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_lon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_lat"
+        android:layout_marginBottom="-36dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_altitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_lon"
+        android:layout_marginBottom="-34dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_altitude"
+        android:layout_marginBottom="-33dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_accuracy"
+        android:layout_marginBottom="-30dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_speed"
+        android:layout_marginBottom="-30dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_updates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_sensor"
+        android:layout_marginBottom="-32dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_updates"
+        android:layout_marginBottom="-28dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/sw_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_address"
+        android:layout_marginBottom="-38dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/sw_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sw_gps"
+        android:layout_marginBottom="-36dp"
+        android:text="TextView" />
+
+    <Switch
+        android:id="@+id/gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/sw_gps"
+        android:text="Switch" />
+
+    <Switch
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gps"
+        android:layout_marginTop="25dp"
+        android:text="Switch" />
+
 </RelativeLayout>

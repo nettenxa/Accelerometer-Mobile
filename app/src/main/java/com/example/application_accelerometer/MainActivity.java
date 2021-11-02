@@ -10,6 +10,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +28,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     Sensor accelerometer;
 
     TextView xValue, yValue, zValue, MsgTxt;
+    TextView tv_lat, tv_lon, tv_altitude, tv_accuract, tv_speed, tv_sensor, tv_updates, tv_address;
+    Switch sw_locationupdate, sw_gps;
+
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference mRootReference = firebaseDatabase.getReference();
     private DatabaseReference mChildReference = mRootReference.child("message");
@@ -49,6 +53,16 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         sensorManager.registerListener(MainActivity.this, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
         Log.d(TAG, "onCreate: Registed accelerometer listener");
 
+        tv_lat = findViewById(R.id.tv_lat);
+        tv_lon = findViewById(R.id.tv_lon);
+        tv_altitude = findViewById(R.id.tv_altitude);
+        tv_accuract = findViewById(R.id.tv_accuracy);
+        tv_speed = findViewById(R.id.tv_speed);
+        tv_sensor = findViewById(R.id.tv_sensor);
+        tv_updates = findViewById(R.id.tv_updates);
+        tv_address = findViewById(R.id.tv_address);
+        sw_gps = findViewById(R.id.gps);
+        sw_gps = findViewById(R.id.location);
     }
 
     @Override
