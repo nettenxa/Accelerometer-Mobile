@@ -19,15 +19,15 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-public class MainActivity extends AppCompatActivity {
-//public class MainActivity extends AppCompatActivity implements SensorEventListener {
+//public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
-//    private  static final  String TAG = "MainActivity";
+    private  static final  String TAG = "MainActivity";
 
-//    private SensorManager sensorManager;
-//    Sensor accelerometer;
+    private SensorManager sensorManager;
+    Sensor accelerometer;
 
-//    TextView xValue, yValue, zValue;
+    TextView xValue, yValue, zValue;
     TextView MsgTxt;
 
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
@@ -39,18 +39,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        xValue = (TextView) findViewById(R.id.xValue);
-//        yValue = (TextView) findViewById(R.id.yValue);
-//        zValue = (TextView) findViewById(R.id.zValue);
+        xValue = (TextView) findViewById(R.id.xValue);
+        yValue = (TextView) findViewById(R.id.yValue);
+        zValue = (TextView) findViewById(R.id.zValue);
 
         MsgTxt = (TextView) findViewById(R.id.msgTxt);
-        MsgTxt.setText("Message from Default");
-//        Log.d(TAG, "onCreate: Intializing Sensor Service ");
-//        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-//
-//        accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-//        sensorManager.registerListener(MainActivity.this, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
-//        Log.d(TAG, "onCreate: Registed accelerometer listener");
+        MsgTxt.setText("Message from NetteN");
+        Log.d(TAG, "onCreate: Intializing Sensor Service ");
+        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+
+        accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        sensorManager.registerListener(MainActivity.this, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+        Log.d(TAG, "onCreate: Registed accelerometer listener");
 
     }
 
@@ -72,18 +72,16 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-//    @Override
-//    public void onAccuracyChanged(Sensor sensor, int accuracy) {
-//
-//    }
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
-//    @Override
-//    public void onSensorChanged(SensorEvent sensorEvent) {
-//        Log.d(TAG, "onSensorChanged: X:"+ sensorEvent.values[0] + "Y: " + sensorEvent.values[1] + "Z: " + sensorEvent.values[2]);
-//        xValue.setText("xValue: " +sensorEvent.values[0]);
-//        yValue.setText("yValue: " +sensorEvent.values[1]);
-//        zValue.setText("zValue: " +sensorEvent.values[2]);
-//
-//    }
+    }
 
+    @Override
+    public void onSensorChanged(SensorEvent sensorEvent) {
+        Log.d(TAG, "onSensorChanged: X:"+ sensorEvent.values[0] + "Y: " + sensorEvent.values[1] + "Z: " + sensorEvent.values[2]);
+        xValue.setText("xValue: " +sensorEvent.values[0]);
+        yValue.setText("yValue: " +sensorEvent.values[1]);
+        zValue.setText("zValue: " +sensorEvent.values[2]);
+    }
 }
