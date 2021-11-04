@@ -22,12 +22,13 @@ import com.google.firebase.database.ValueEventListener;
 public class MainActivity extends AppCompatActivity {
 //public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
-    private  static final  String TAG = "MainActivity";
+//    private  static final  String TAG = "MainActivity";
 
-    private SensorManager sensorManager;
-    Sensor accelerometer;
+//    private SensorManager sensorManager;
+//    Sensor accelerometer;
 
-    TextView xValue, yValue, zValue, MsgTxt;
+//    TextView xValue, yValue, zValue;
+    TextView MsgTxt;
 
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
     private DatabaseReference mRootReference = firebaseDatabase.getReference();
@@ -43,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 //        zValue = (TextView) findViewById(R.id.zValue);
 
         MsgTxt = (TextView) findViewById(R.id.msgTxt);
-
+        MsgTxt.setText("Message from Default");
 //        Log.d(TAG, "onCreate: Intializing Sensor Service ");
 //        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 //
@@ -84,6 +85,5 @@ public class MainActivity extends AppCompatActivity {
 //        zValue.setText("zValue: " +sensorEvent.values[2]);
 //
 //    }
-//Toast.makeText(context: MainActivity.this, text:"Firebase connection Success", Toast.LENGTH_LONG).show();
 
 }

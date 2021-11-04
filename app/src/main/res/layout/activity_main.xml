@@ -41,10 +41,10 @@
 
     <TextView
         android:id="@+id/msgTxt"
-        android:text="Message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180sp"/>
+        android:layout_marginTop="180sp"
+        android:text="TextView" />
 
 
 </RelativeLayout>
