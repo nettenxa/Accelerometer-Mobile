@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
-        Log.d(TAG, "onSensorChanged: X:"+ sensorEvent.values[0] + "Y: " + sensorEvent.values[1] + "Z: " + sensorEvent.values[2]);
+        Log.d(TAG, "onSensorChanged: X:"+ sensorEvent.values[0] + " Y: " + sensorEvent.values[1] + " Z: " + sensorEvent.values[2]);
         xValue.setText("xValue: " +sensorEvent.values[0]);
         yValue.setText("yValue: " +sensorEvent.values[1]);
         zValue.setText("zValue: " +sensorEvent.values[2]);
