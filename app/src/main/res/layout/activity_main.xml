@@ -4,36 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="30sp"
-    android:orientation="vertical"
     tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/location"
+        android:text="Location :"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/getlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:background="@color/design_default_color_on_primary"
+        android:text="Get Location"
+        android:textColor="#fff"
+
+        app:layout_constraintTop_toBottomOf="@+id/location"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:layout_marginTop="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/xValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30sp"
-        />
-
+        android:layout_marginTop="120dp"
+        android:text="xValues" />
 
     <TextView
         android:id="@+id/yValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/xValue"
-        android:layout_marginTop="30sp" />
+        android:layout_marginTop="30sp"
+        android:text="yValues" />
 
     <TextView
         android:id="@+id/zValue"
+        android:text="zValues"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/yValue"
@@ -43,7 +65,8 @@
         android:id="@+id/msgTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180sp"
+        android:layout_below="@+id/zValue"
+        android:layout_marginTop="30sp"
         android:text="TextView" />
 
 
