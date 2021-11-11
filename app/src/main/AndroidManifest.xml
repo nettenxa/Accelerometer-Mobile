@@ -13,12 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationAccelerometer">
-
         <activity android:name=".MapWithPlayServiceLocationActivity"></activity>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyB1XiYZXENZMcwigA9w8UYn7Eop4EGaZR8" />
-
+        <activity android:name=".MapActivtiy" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
