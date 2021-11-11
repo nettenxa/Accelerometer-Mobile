@@ -9,7 +9,7 @@
     <Button
         android:textColor="#fff"
         android:text="SHOW MAP WITH CURRENT LOCATION MARKER"
-        android:background="@color/black"
+        android:background="@color/colorPrimary"
         android:id="@+id/show_map_with_location"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
