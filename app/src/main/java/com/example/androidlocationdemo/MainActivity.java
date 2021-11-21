@@ -1,4 +1,4 @@
-package com.example.application_accelerometer;
+package com.example.androidlocationdemo;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,16 +27,9 @@ import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-//public class MainActivity extends AppCompatActivity {
 public class MainActivity extends AppCompatActivity implements SensorEventListener, LocationListener {
     // Read Gyro Scope
     private  static final  String TAG = "MainActivity";
@@ -47,13 +40,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     TextView MsgTxt;
     // End
 
-    // Read Fire Base
-    private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
-    private DatabaseReference mRootReference = firebaseDatabase.getReference();
-    private DatabaseReference mChildReference = mRootReference.child("message");
-    // End
-
-    // Read GPS
     private static final int PERMISSION_CODE = 101;
     TextView locationText;
     Button getLocation;
@@ -63,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     Location loc;
     boolean isNetworklocation;
     ProgressDialog progressDialog;
-    // End
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,37 +82,23 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 getLocation();
             }
         });
-    }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        mChildReference.addValueEventListener(new ValueEventListener() {
+        Button openmap=findViewById(R.id.openmap);
+
+        openmap.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-
-                String message = dataSnapshot.getValue(String.class);
-                MsgTxt.setText(message);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,MapActivtiy.class));
             }
         });
-    }
 
-    @Override
-    public void onAccuracyChanged(Sensor sensor, int accuracy) {
-
-    }
-
-    @Override
-    public void onSensorChanged(SensorEvent sensorEvent) {
-        Log.d(TAG, "onSensorChanged: X:"+ sensorEvent.values[0] + " Y: " + sensorEvent.values[1] + " Z: " + sensorEvent.values[2]);
-        xValue.setText("xValue: " +sensorEvent.values[0]);
-        yValue.setText("yValue: " +sensorEvent.values[1]);
-        zValue.setText("zValue: " +sensorEvent.values[2]);
+        Button fetch_current_location=findViewById(R.id.fetch_current_location);
+        fetch_current_location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,MapWithPlayServiceLocationActivity.class));
+            }
+        });
     }
 
     private void getLocation() {
@@ -205,7 +176,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         //one thing i missed in permission let's complete it
         try{
             if(isGpsLocation){
-                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,1000*60*1,10, (LocationListener) MainActivity.this);
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,1000*60*1,10,MainActivity.this);
                 if(locationManager!=null){
                     loc=locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
                     if(loc!=null){
@@ -214,7 +185,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 }
             }
             else if(isNetworklocation){
-                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,1000*60*1,10, (LocationListener) MainActivity.this);
+                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,1000*60*1,10,MainActivity.this);
                 if(locationManager!=null){
                     loc=locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
                     if(loc!=null){
@@ -265,7 +236,35 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
     @Override
-    public void onLocationChanged(@NonNull Location location) {
+    public void onLocationChanged(Location location) {
+        updateUi(location);
+    }
+
+    @Override
+    public void onStatusChanged(String provider, int status, Bundle extras) {
+
+    }
+
+    @Override
+    public void onProviderEnabled(String provider) {
+
+    }
+
+    @Override
+    public void onProviderDisabled(String provider) {
+
+    }
+
+    @Override
+    public void onSensorChanged(SensorEvent sensorEvent) {
+        Log.d(TAG, "onSensorChanged: X:"+ sensorEvent.values[0] + " Y: " + sensorEvent.values[1] + " Z: " + sensorEvent.values[2]);
+        xValue.setText("xValue: " +sensorEvent.values[0]);
+        yValue.setText("yValue: " +sensorEvent.values[1]);
+        zValue.setText("zValue: " +sensorEvent.values[2]);
+    }
+
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
 }

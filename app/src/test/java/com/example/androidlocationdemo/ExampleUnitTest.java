@@ -1,4 +1,4 @@
-package com.example.application_accelerometer;
+package com.example.androidlocationdemo;
 
 import org.junit.Test;
 

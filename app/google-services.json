@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "492308689433",
-    "project_id": "application-accelerometer",
-    "storage_bucket": "application-accelerometer.appspot.com"
+    "project_number": "897264957257",
+    "project_id": "elcare-map-service",
+    "storage_bucket": "elcare-map-service.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:492308689433:android:16f49beb788be3f86fb088",
+        "mobilesdk_app_id": "1:897264957257:android:74bbc7145592c079bb4c98",
         "android_client_info": {
-          "package_name": "com.example.application_accelerometer"
+          "package_name": "com.example.androidlocationdemo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "492308689433-dnanp6g5uuh5tblm60t7vfpdnj7epcru.apps.googleusercontent.com",
+          "client_id": "897264957257-t0i2ui4dtluvdk4jil4mqmuduapo7k9u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDV6zrIpolYyBcZfOGArUmjnBZ0kBZlib0"
+          "current_key": "AIzaSyA9IQZQbkuNFPpcfQ0N1uU4oym6kj002mU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "492308689433-dnanp6g5uuh5tblm60t7vfpdnj7epcru.apps.googleusercontent.com",
+              "client_id": "897264957257-t0i2ui4dtluvdk4jil4mqmuduapo7k9u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
