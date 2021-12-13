@@ -1,4 +1,10 @@
-#Mon Nov 22 01:55:29 ICT 2021
-base.0=F\:\\Project\\Accelerometer-Mobile\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Thu Dec 02 02:19:58 ICT 2021
+base.2=E\:\\NSC\\3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+path.2=7/classes.dex
+base.1=E\:\\NSC\\3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+path.1=0/classes.dex
+base.0=E\:\\NSC\\3\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

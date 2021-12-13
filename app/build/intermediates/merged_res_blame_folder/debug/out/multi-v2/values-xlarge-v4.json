@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Project\\Accelerometer-Mobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "E:\\NSC\\3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nnet_\\.gradle\\caches\\transforms-3\\f64d285e7c0c3f58199652dd5e42cb34\\transformed\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\nnet_\\Downloads\\LocationTracker2020\\LocationTracker2020\\gradle\\caches\\transforms-3\\9079c9694b4d4270d7cd62242948af25\\transformed\\appcompat-1.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

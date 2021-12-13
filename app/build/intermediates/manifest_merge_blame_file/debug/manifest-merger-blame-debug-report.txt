@@ -1,106 +1,91 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.androidlocationdemo"
+3    package="com.example.a3"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="15"
-8-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="29" />
-9-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="21"
+8-->E:\NSC\3\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\NSC\3\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:5:5-67
-11-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:6:5-79
-12-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:6:22-76
-13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:7:5-81
-13-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:7:22-78
-14
-15    <!-- Include required permissions for Google Maps API to run. -->
-16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
-17
-18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
-19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
-20        android:required="true" />
-20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
-21
-22    <application
-22-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:9:5-30:19
-23        android:allowBackup="true"
-23-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:10:9-35
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\94c4745ecd6aa2bded7c344d03d4593c\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
-25        android:debuggable="true"
-26        android:icon="@mipmap/ic_launcher"
-26-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:11:9-43
-27        android:label="@string/app_name"
-27-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:12:9-41
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:13:9-54
-29        android:supportsRtl="true"
-29-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:14:9-35
-30        android:testOnly="true"
-31        android:theme="@style/AppTheme" >
-31-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:15:9-40
-32        <activity android:name="com.example.androidlocationdemo.MapWithPlayServiceLocationActivity" />
-32-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:16:9-81
-32-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:16:19-69
-33
-34        <meta-data
-34-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:18:9-20:49
-35            android:name="com.google.android.geo.API_KEY"
-35-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:19:13-58
-36            android:value="YOUR_API_KEY_HERE" />
-36-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:20:13-46
-37
-38        <activity android:name="com.example.androidlocationdemo.MapActivtiy" />
-38-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:22:9-49
-38-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:22:19-46
-39        <activity android:name="com.example.androidlocationdemo.MainActivity" >
-39-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:23:9-29:20
-39-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:23:19-47
-40            <intent-filter>
-40-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:24:13-28:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:25:17-69
-41-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:25:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:27:17-77
-43-->F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:27:27-74
-44            </intent-filter>
-45        </activity>
-46        <!-- Needs to be explicitly declared on P+ -->
-47        <uses-library
-47-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-48            android:name="org.apache.http.legacy"
-48-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-49            android:required="false" />
-49-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-50
-51        <activity
-51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-53            android:exported="false"
-53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-55
-56        <meta-data
-56-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-57            android:name="com.google.android.gms.version"
-57-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-58            android:value="@integer/google_play_services_version" />
-58-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-59    </application>
-60
-61</manifest>
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->E:\NSC\3\app\src\main\AndroidManifest.xml:5:5-78
+11-->E:\NSC\3\app\src\main\AndroidManifest.xml:5:22-76
+12
+13    <application
+13-->E:\NSC\3\app\src\main\AndroidManifest.xml:7:5-23:19
+14        android:allowBackup="true"
+14-->E:\NSC\3\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->E:\NSC\3\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->E:\NSC\3\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->E:\NSC\3\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->E:\NSC\3\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.3" >
+22-->E:\NSC\3\app\src\main\AndroidManifest.xml:13:9-39
+23        <activity
+23-->E:\NSC\3\app\src\main\AndroidManifest.xml:14:9-22:20
+24            android:name="com.example.a3.MainActivity"
+24-->E:\NSC\3\app\src\main\AndroidManifest.xml:15:13-41
+25            android:exported="true" >
+25-->E:\NSC\3\app\src\main\AndroidManifest.xml:16:13-36
+26            <intent-filter>
+26-->E:\NSC\3\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->E:\NSC\3\app\src\main\AndroidManifest.xml:18:17-69
+27-->E:\NSC\3\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->E:\NSC\3\app\src\main\AndroidManifest.xml:20:17-77
+29-->E:\NSC\3\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+33            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+33-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+34            android:exported="false"
+34-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+35            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+35-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+36
+37        <meta-data
+37-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+38            android:name="com.google.android.gms.version"
+38-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+39            android:value="@integer/google_play_services_version" />
+39-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+43            android:authorities="com.example.a3.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>

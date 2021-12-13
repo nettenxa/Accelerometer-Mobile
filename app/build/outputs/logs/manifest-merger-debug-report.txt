@@ -1,224 +1,269 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\f64d285e7c0c3f58199652dd5e42cb34\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nnet_\.gradle\caches\transforms-3\f491d48deff9269f903ac6017e461559\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\19d97ca9758edac668220bd2f298cba2\transformed\jetified-play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\bc4fd821a6e51a54b504be8013b5f90b\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\6e4baaaefb38bb9c8e6e3f850364d6fa\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\8ede10147567c2507cc51ace41c13ea6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\70c058259436dcd4c71d85461afd1b6a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\d35f0010fbff61dfb15ae12685344215\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\26dba6039296c7e11e55695e578f012b\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\08a78bb58e82e932da1f82c2b8b82824\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\0a2c06990f10f8bf77c6b2eafaa2d2f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\c0d52683149a4f63c5e66613b9f51e2e\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\94c4745ecd6aa2bded7c344d03d4593c\transformed\core-1.1.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\75cb0929a6f85c2da435fad4c201e57a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\626641b499ffdcb66d218627adc23050\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\82c5f8c672879a5fbe5f33ff548c9006\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\fb3449e72dc29f308cc217ab7482dbfb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\d6b2c6310d0da332cb9475defea77305\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\b8e61f2d133f499e6198163cf2456f01\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\b39e20052568115d5d6e20e605eabe6a\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\9079c9694b4d4270d7cd62242948af25\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\e003ace955c63d101f261bbd01399762\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\3cb859c1ac0dd29d128e917789be4254\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\81756cc56a01aeeae61ac839d2e072c0\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\ced132bf9fc06842b5819ef6e28ee688\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\0173ed9dc551c8b1c170efbf05532376\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\112c0a3e5dbc3b1dd7ba5c1504be4543\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\8ede10147567c2507cc51ace41c13ea6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\40129cdd0cc6fb43e1431d3a7f860d71\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d5ce58f194e6eb15743ad13effdd09da\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d2646664f8d9727246d320f24126df9c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\e7a7361ce08649d63b0b54755f88f036\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\08a78bb58e82e932da1f82c2b8b82824\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\0a2c06990f10f8bf77c6b2eafaa2d2f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\70c058259436dcd4c71d85461afd1b6a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\6d6e532017af0c907cd34d38d04e17fc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d35f0010fbff61dfb15ae12685344215\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\973d1c6591a02ca84f2ddc5ef5b8076a\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c0d52683149a4f63c5e66613b9f51e2e\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c1a2bad483f0938ab658856dbf3c7f56\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\940f6159f5551d04c5900cf56e10f7a6\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\1d20e376c94887dfa0b3a5aa12cd6783\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\1bc1de6a32330280351f65a0393bdf57\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7a6baf161ab5d6c31b6f6f5d94e198cf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d6b2c6310d0da332cb9475defea77305\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\6e3c93787fdaaf7e4199472c64252016\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\0d7ad5a9bb64a79e832ad9e2795069b5\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\72de0627c0c71c2c0ac6e20b5aa28ba3\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\5dc1b0d68d5be8d395af6b357c3240c1\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\eb3bd80f829817dc46cef00554f9b4ab\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\abd986d958258d7e8503cbe4ed7e75cb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:1-32:12
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-	android:name
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:5:5-78
 	android:name
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:6:22-76
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:7:5-81
-	android:name
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:5:22-76
 application
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:9:5-30:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nnet_\.gradle\caches\transforms-3\f491d48deff9269f903ac6017e461559\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nnet_\.gradle\caches\transforms-3\f491d48deff9269f903ac6017e461559\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\19d97ca9758edac668220bd2f298cba2\transformed\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\19d97ca9758edac668220bd2f298cba2\transformed\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\94c4745ecd6aa2bded7c344d03d4593c\transformed\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\94c4745ecd6aa2bded7c344d03d4593c\transformed\core-1.1.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\75cb0929a6f85c2da435fad4c201e57a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\75cb0929a6f85c2da435fad4c201e57a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:7:5-23:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\e003ace955c63d101f261bbd01399762\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\e003ace955c63d101f261bbd01399762\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\81756cc56a01aeeae61ac839d2e072c0\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\81756cc56a01aeeae61ac839d2e072c0\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\94c4745ecd6aa2bded7c344d03d4593c\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.7.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:15:9-40
-activity#com.example.androidlocationdemo.MapWithPlayServiceLocationActivity
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:16:9-81
-	android:name
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:16:19-69
-meta-data#com.google.android.geo.API_KEY
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:18:9-20:49
-	android:value
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:20:13-46
-	android:name
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:19:13-58
-activity#com.example.androidlocationdemo.MapActivtiy
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:22:9-49
-	android:name
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:22:19-46
-activity#com.example.androidlocationdemo.MainActivity
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:23:9-29:20
-	android:name
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:23:19-47
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:24:13-28:29
-action#android.intent.action.MAIN
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:25:17-69
-	android:name
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:25:25-66
-category#android.intent.category.LAUNCHER
-ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:27:17-77
-	android:name
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml:27:27-74
-uses-sdk
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\f64d285e7c0c3f58199652dd5e42cb34\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\f64d285e7c0c3f58199652dd5e42cb34\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nnet_\.gradle\caches\transforms-3\f491d48deff9269f903ac6017e461559\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nnet_\.gradle\caches\transforms-3\f491d48deff9269f903ac6017e461559\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\19d97ca9758edac668220bd2f298cba2\transformed\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\19d97ca9758edac668220bd2f298cba2\transformed\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\2fd72d8224e477335a7a34c602035317\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\bc4fd821a6e51a54b504be8013b5f90b\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\bc4fd821a6e51a54b504be8013b5f90b\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\6e4baaaefb38bb9c8e6e3f850364d6fa\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\6e4baaaefb38bb9c8e6e3f850364d6fa\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\8ede10147567c2507cc51ace41c13ea6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\8ede10147567c2507cc51ace41c13ea6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\70c058259436dcd4c71d85461afd1b6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\70c058259436dcd4c71d85461afd1b6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\d35f0010fbff61dfb15ae12685344215\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\d35f0010fbff61dfb15ae12685344215\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\26dba6039296c7e11e55695e578f012b\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\26dba6039296c7e11e55695e578f012b\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\08a78bb58e82e932da1f82c2b8b82824\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\08a78bb58e82e932da1f82c2b8b82824\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\0a2c06990f10f8bf77c6b2eafaa2d2f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\0a2c06990f10f8bf77c6b2eafaa2d2f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\c0d52683149a4f63c5e66613b9f51e2e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\c0d52683149a4f63c5e66613b9f51e2e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\94c4745ecd6aa2bded7c344d03d4593c\transformed\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\94c4745ecd6aa2bded7c344d03d4593c\transformed\core-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\75cb0929a6f85c2da435fad4c201e57a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\75cb0929a6f85c2da435fad4c201e57a\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\626641b499ffdcb66d218627adc23050\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\626641b499ffdcb66d218627adc23050\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\82c5f8c672879a5fbe5f33ff548c9006\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\nnet_\.gradle\caches\transforms-3\82c5f8c672879a5fbe5f33ff548c9006\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\fb3449e72dc29f308cc217ab7482dbfb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\fb3449e72dc29f308cc217ab7482dbfb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\d6b2c6310d0da332cb9475defea77305\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\d6b2c6310d0da332cb9475defea77305\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\b8e61f2d133f499e6198163cf2456f01\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\b8e61f2d133f499e6198163cf2456f01\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\b39e20052568115d5d6e20e605eabe6a\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\b39e20052568115d5d6e20e605eabe6a\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Project\Accelerometer-Mobile\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
-uses-library#org.apache.http.legacy
-ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\075522a55ae82583a7d3b553bb99993c\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:13:9-39
+activity#com.example.a3.MainActivity
+ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:14:9-22:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\f794c157ce27c216c504b2261e60ef5d\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\102de147192b5ae927c001061465296f\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\9079c9694b4d4270d7cd62242948af25\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\9079c9694b4d4270d7cd62242948af25\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\e003ace955c63d101f261bbd01399762\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\e003ace955c63d101f261bbd01399762\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\3cb859c1ac0dd29d128e917789be4254\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\3cb859c1ac0dd29d128e917789be4254\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c06fd3a3fdef78da88f554eb3537a124\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\81756cc56a01aeeae61ac839d2e072c0\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\81756cc56a01aeeae61ac839d2e072c0\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\ced132bf9fc06842b5819ef6e28ee688\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\ced132bf9fc06842b5819ef6e28ee688\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\0173ed9dc551c8b1c170efbf05532376\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\0173ed9dc551c8b1c170efbf05532376\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\112c0a3e5dbc3b1dd7ba5c1504be4543\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\112c0a3e5dbc3b1dd7ba5c1504be4543\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\8ede10147567c2507cc51ace41c13ea6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\8ede10147567c2507cc51ace41c13ea6\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\40129cdd0cc6fb43e1431d3a7f860d71\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\40129cdd0cc6fb43e1431d3a7f860d71\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d5ce58f194e6eb15743ad13effdd09da\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d5ce58f194e6eb15743ad13effdd09da\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d2646664f8d9727246d320f24126df9c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d2646664f8d9727246d320f24126df9c\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\e7a7361ce08649d63b0b54755f88f036\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\e7a7361ce08649d63b0b54755f88f036\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\08a78bb58e82e932da1f82c2b8b82824\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\08a78bb58e82e932da1f82c2b8b82824\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\0a2c06990f10f8bf77c6b2eafaa2d2f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\0a2c06990f10f8bf77c6b2eafaa2d2f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\70c058259436dcd4c71d85461afd1b6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\70c058259436dcd4c71d85461afd1b6a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\6d6e532017af0c907cd34d38d04e17fc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\6d6e532017af0c907cd34d38d04e17fc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d35f0010fbff61dfb15ae12685344215\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d35f0010fbff61dfb15ae12685344215\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\973d1c6591a02ca84f2ddc5ef5b8076a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\973d1c6591a02ca84f2ddc5ef5b8076a\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c0d52683149a4f63c5e66613b9f51e2e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c0d52683149a4f63c5e66613b9f51e2e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\58c33f79541fa64793747c2f03ce017d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c1a2bad483f0938ab658856dbf3c7f56\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c1a2bad483f0938ab658856dbf3c7f56\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\940f6159f5551d04c5900cf56e10f7a6\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\940f6159f5551d04c5900cf56e10f7a6\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\1d20e376c94887dfa0b3a5aa12cd6783\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\1d20e376c94887dfa0b3a5aa12cd6783\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\1bc1de6a32330280351f65a0393bdf57\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\1bc1de6a32330280351f65a0393bdf57\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d88cacb3ad7019752e911e94c62f5798\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7a6baf161ab5d6c31b6f6f5d94e198cf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7a6baf161ab5d6c31b6f6f5d94e198cf\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d6b2c6310d0da332cb9475defea77305\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\d6b2c6310d0da332cb9475defea77305\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\6e3c93787fdaaf7e4199472c64252016\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\6e3c93787fdaaf7e4199472c64252016\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\0d7ad5a9bb64a79e832ad9e2795069b5\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\0d7ad5a9bb64a79e832ad9e2795069b5\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\72de0627c0c71c2c0ac6e20b5aa28ba3\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\72de0627c0c71c2c0ac6e20b5aa28ba3\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\511e2a36f18b29fdf3f425e3962668f8\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\5dc1b0d68d5be8d395af6b357c3240c1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\5dc1b0d68d5be8d395af6b357c3240c1\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\eb3bd80f829817dc46cef00554f9b4ab\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\eb3bd80f829817dc46cef00554f9b4ab\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\998ecad2e598076d0444e5b886cc28b2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\abd986d958258d7e8503cbe4ed7e75cb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\abd986d958258d7e8503cbe4ed7e75cb\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+		ADDED from E:\NSC\3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\NSC\3\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\06f08a7c9eb92bee56db18779f31a479\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\c7568e8705f251fef106b4b50c29e8e2\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\nnet_\.gradle\caches\transforms-3\5b4a5af03789cf1669cedf0b85ed5f41\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\7bfe9124a72ed5828bff4f6fb297c9a3\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\297743ef38a765569e85995e5d62a64b\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nnet_\Downloads\LocationTracker2020\LocationTracker2020\gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
