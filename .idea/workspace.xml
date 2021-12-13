@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="131d3c8a-bdd9-4bf8-83a9-d8ff80db7820" name="Default Changelist" comment="" />
+    <list default="true" id="e9b991b3-ab17-432c-be3b-da8868bfa592" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,14 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ProjectId" id="21h7ejdvya6IhVjjEgh0J6u2aiG" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="21gd9kq6yO39PvfNn65hL8eGvrt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,7 +40,7 @@
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="3.app" />
+      <module name="GPSLocation.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -94,11 +101,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="131d3c8a-bdd9-4bf8-83a9-d8ff80db7820" name="Default Changelist" comment="" />
-      <created>1638381563176</created>
+      <changelist id="e9b991b3-ab17-432c-be3b-da8868bfa592" name="Default Changelist" comment="" />
+      <created>1638366517122</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638381563176</updated>
+      <updated>1638366517122</updated>
     </task>
     <servers />
   </component>

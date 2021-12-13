@@ -1,4 +1,4 @@
-package com.example.a3;
+package com.example.gpslocation;
 
 import org.junit.Test;
 

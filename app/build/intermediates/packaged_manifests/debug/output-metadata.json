@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.a3",
+  "applicationId": "com.example.gpslocation",
   "variantName": "debug",
   "elements": [
     {

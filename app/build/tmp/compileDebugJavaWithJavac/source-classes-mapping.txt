@@ -1,8 +1,9 @@
-com/example/a3/BuildConfig.java
- com.example.a3.BuildConfig
-com/example/a3/MainActivity.java
- com.example.a3.MainActivity
- com.example.a3.MainActivity$1
- com.example.a3.MainActivity$2
- com.example.a3.MainActivity$3
- com.example.a3.MainActivity$4
+com/example/gpslocation/BuildConfig.java
+ com.example.gpslocation.BuildConfig
+com/example/gpslocation/databinding/ActivityMapsBinding.java
+ com.example.gpslocation.databinding.ActivityMapsBinding
+com/example/gpslocation/MyLocation.java
+ com.example.gpslocation.MyLocation
+com/example/gpslocation/MapsActivity.java
+ com.example.gpslocation.MapsActivity
+ com.example.gpslocation.MapsActivity$1
